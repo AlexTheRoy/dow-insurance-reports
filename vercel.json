@@ -2,20 +2,142 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/Dow-Auto-Campaign-Performance-Since-Launch-11-03-26",
+      "destination": "/Dow-Auto-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Auto-Campaign-Performance-Since-Launch-11-03-26.html",
+      "destination": "/Dow-Auto-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Auto-Campaign-Performance-Since-Launch-10-14-26",
+      "destination": "/Dow-Auto-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Auto-Campaign-Performance-Since-Launch-10-14-26.html",
+      "destination": "/Dow-Auto-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Campaign-Overview-Since-Launch-11-03-26",
+      "destination": "/Dow-Campaign-Overview-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Campaign-Overview-Since-Launch-11-03-26.html",
+      "destination": "/Dow-Campaign-Overview-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Campaign-Overview-Since-Launch-10-14-26",
+      "destination": "/Dow-Campaign-Overview-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Campaign-Overview-Since-Launch-10-14-26.html",
+      "destination": "/Dow-Campaign-Overview-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Home-Campaign-Performance-Since-Launch-11-03-26",
+      "destination": "/Dow-Home-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Home-Campaign-Performance-Since-Launch-11-03-26.html",
+      "destination": "/Dow-Home-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Home-Campaign-Performance-Since-Launch-10-14-26",
+      "destination": "/Dow-Home-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Home-Campaign-Performance-Since-Launch-10-14-26.html",
+      "destination": "/Dow-Home-Campaign-Performance-Since-Launch-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Inbound-Call-Review-11-03-26",
+      "destination": "/Dow-Inbound-Call-Review-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Inbound-Call-Review-11-03-26.html",
+      "destination": "/Dow-Inbound-Call-Review-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Inbound-Call-Review-10-14-26",
+      "destination": "/Dow-Inbound-Call-Review-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Inbound-Call-Review-10-14-26.html",
+      "destination": "/Dow-Inbound-Call-Review-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Monthly-Sales-by-Source-11-03-26",
+      "destination": "/Dow-Monthly-Sales-by-Source-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Monthly-Sales-by-Source-11-03-26.html",
+      "destination": "/Dow-Monthly-Sales-by-Source-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Source-ZIP-Sales-11-03-26",
+      "destination": "/Dow-Source-ZIP-Sales-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-Source-ZIP-Sales-11-03-26.html",
+      "destination": "/Dow-Source-ZIP-Sales-11-17-26",
+      "permanent": false
+    },
+    {
+      "source": "/Dow-ZIP-Sales-11-03-26.csv",
+      "destination": "/Dow-ZIP-Sales-11-17-26.csv",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
     },
     {
       "source": "/",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
       ]
     }
   ]
